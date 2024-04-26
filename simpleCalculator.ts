@@ -1,6 +1,8 @@
 const prompt = require("prompt-sync")();
 export {};
 
+///// AGAR UI ISHLAMASA, PASDAGI CODE NI TERMINALDA ISHLATIB KO'RING /////////
+
 // SIMPLE CALCULATOR ///////////////////////////
 
 // Get references to elements
@@ -56,3 +58,36 @@ clearBtn.addEventListener("click", () => {
 	num2Input.value = "";
 	resultP.textContent = "";
 });
+
+///// IF UI IS NOT WORKING< USE TERMINAL TO CHECK MY FUNCTIONS /////////
+
+// SIMPLE CALCULATOR ///////////////////////////
+
+const num1: number = prompt("Please enter a number");
+const num2: number = prompt("Please enter another number");
+const operation: string = prompt("Please enter a operation (+, -, *,  /): ");
+
+let result: number = 0;
+
+switch (operation) {
+	case "+":
+        result = num1 + num2;
+        break;
+    case "-":
+        result = num1 - num2;
+        break;
+    case "*":
+        result = num1 * num2;
+        break;
+    case "/":
+        result = num1 / num2;
+        break;
+    default:
+        result = 0;
+        break;
+}
+
+console.log(result);
+
+
+

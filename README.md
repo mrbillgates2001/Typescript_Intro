@@ -3,3 +3,51 @@
  - TypeScript
  - TypeScript
 
+- TypeScript
+    - intro
+        - Typescript — Open-source programming language from Microsoft
+        - Typed superset of JavaScript
+        - Compiles down to plain JavaScript
+        - Relation to JavaScript
+        - TypeScript is not just a programming language, it is also a compiler which can translate TypeScript code to JavaScript code
+        - TypeScript is a **strongly** typed and **statically** typed language
+    - why need
+        - Rapid growth
+        - Big projects        
+    - Advantages of TypeScript
+        - We can explicitly specify the datatype for a variable which allows us to catch any error and avoid bugs while writing code.
+        - TypeScript provides new features like an interface, generics, and access modifiers, which are not available in the current version of JavaScript.
+        - TypeScript is also highly configurable. So, you can fine tune the TypeScript compiler to your requirements to make sure that it behaves in the way you want it to behave
+    - setup
+        - node  -v
+        - npm  install  -g  typescript
+        - tsc  -v
+        - main.ts
+        - tsc  main.ts
+        - node  main.js
+        - tsc  main.ts  —watch
+    - variable declarations
+        - var
+        - let
+        - const
+    - variable types
+        - boolean
+        - string
+        - number
+        - Static type checking
+        - any
+        - null
+        - undefined
+        - object
+        - Array<number> or number[]
+        - Tuple
+        - enum
+        - unknown
+        - union
+    - functions
+        - parameter types
+        - return type
+        - void
+        - parameter required
+        - parameter optional
+        - default parameter
